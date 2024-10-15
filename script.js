@@ -30,18 +30,7 @@ window.onscroll = () => {
         }
     });
 
-    document.getElementById('read-more-btn').addEventListener('click', function(event) {
-        event.preventDefault(); 
-        const moreInfo = document.getElementById('more-info');
-        if (moreInfo.classList.contains('hidden')) {
-            moreInfo.classList.remove('hidden'); 
-            this.textContent = "Read Less"; 
-        } else {
-            moreInfo.classList.add('hidden'); 
-            this.textContent = "Read More"; 
-        }
-    });
-
+    
 
 
 
